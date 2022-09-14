@@ -19,3 +19,5 @@ console.log(subtracao(3,2))
 //diminuindo ainda mais
 const imprimir2 = a => console.log(a)
 imprimir2('Legal!!')
+
+
