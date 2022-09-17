@@ -9,8 +9,8 @@ const shopping = {
     flower: 3.5, 
     sugar: 4, 
     rice: 10, 
-    spice: function spice(mango, salt) {
-        return mango + salt
+    spice() {
+        console.log("salt + mango")
     }
 }
 
@@ -53,4 +53,4 @@ let Anonima = function(coffee, milk) {
 
 Anonima(7,3)
 
-console.log(list.spice(1,2))
+console.log(list.spice())
